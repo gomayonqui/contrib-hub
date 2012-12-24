@@ -10,7 +10,7 @@ class MapUrlBuilder
   end
 
   def self.user_map(user)
-    MapUrlBuilder.new('250x250').add_marker('blue', user.coords).url
+    MapUrlBuilder.new('350x350').add_marker('blue', user.coords).url
   end
 
   def add_marker(colour, coords)
